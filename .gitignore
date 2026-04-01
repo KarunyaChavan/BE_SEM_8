@@ -1,0 +1,126 @@
+.ipynb_checkpoints/
+
+# ---------------------------
+# Deep Learning / NLP / HPC
+# ---------------------------
+
+# Python bytecode, caches and builds
+__pycache__/
+*.py[cod]
+*$py.class
+.mypy_cache/
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+.env
+.env.*
+venv/
+ENV/
+env/
+.venv/
+.conda/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Notebook outputs and checkpoint artifacts
+*.nb.html
+
+# Data / large files (adjust if you track datasets in-repo)
+*.h5
+*.hdf5
+*.tfrecord
+*.tfrecords
+*.npz
+*.npy
+
+# Model artifacts / checkpoints
+models/
+checkpoints/
+weights/
+runs/
+logs/
+experiments/
+artifacts/
+*.ckpt
+*.pth
+*.pt
+pytorch_model.bin
+saved_model/
+saved_models/
+
+# TensorBoard
+events.out.tfevents*
+tensorboard/
+tb_logs/
+
+# Experiment tracking
+mlruns/
+wandb/
+.wandb/
+neptune/
+comet.*
+
+# Caches (project-local)
+.cache/
+.cache/huggingface/
+transformers_cache/
+
+# HPC / cluster job outputs
+slurm-*.out
+slurm-*.err
+*.o
+*.out
+*.err
+*.e*
+*.qsub
+*.pbs
+
+# Compiled objects and libraries
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.exe
+*.a
+*.lib
+
+# Build systems
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+
+# IDE/editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+tmp/
+temp/
+
+# Coverage / test reports
+.coverage
+coverage.xml
+htmlcov/
+
+# Misc
+*~
+*.swp
+
+# End of file
