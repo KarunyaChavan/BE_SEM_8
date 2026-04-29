@@ -85,7 +85,13 @@ slurm-*.err
 # Compiled objects and libraries
 *.o
 *.obj
+*.cpp.o
+*.cpp.out
+*.cu.o
+*.cu.out
 *.so
+*.cubin
+*.ptx
 *.dylib
 *.dll
 *.exe
