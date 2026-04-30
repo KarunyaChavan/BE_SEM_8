@@ -299,7 +299,7 @@ public:
         int available_cores = omp_get_max_threads();
         std::cout << "Starting Benchmarks using " << available_cores << " threads.\n\n";
 
-        const std::vector<int> test_sizes = {100, 1000, 5000, 10000, 15000};
+        const std::vector<int> test_sizes = {10, 100, 500, 1000, 5000, 10000};
         const std::vector<double> test_densities = {0.01, 0.1, 0.5};
 
         SequentialBFS seq_bfs;

@@ -82,14 +82,30 @@ slurm-*.err
 *.qsub
 *.pbs
 
+# HPC local benchmark binaries and outputs
+HPC/Graph_Traversal/graph
+HPC/Graph_Traversal/graph_result.txt
+HPC/Reduction/reduction
+HPC/Reduction/reduction_result.txt
+HPC/Sorting/sort
+HPC/Sorting/sort_result.txt
+HPC/Vector_Matrix/vector_matrix
+HPC/Vector_Matrix/vector_result.txt
+HPC/Vector_Matrix/vector_matrix_result.txt
+
 # Compiled objects and libraries
 *.o
 *.obj
 *.cpp.o
 *.cpp.out
+*.openmp
+*.omp
 *.cu.o
 *.cu.out
+*.nvcc
+*.fatbin
 *.so
+*.bin
 *.cubin
 *.ptx
 *.dylib
